@@ -1,5 +1,6 @@
 package com.example.myapplication1
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -137,7 +138,7 @@ fun TataletakBoxColumnRow(modifier: Modifier){
                 .background(color = Color.Cyan),
             contentAlignment = Alignment.Center
         ) {
-            image(painter = gambar,
+            Image(painter = gambar,
                 contentDescription = null,
                 contentScale = ContentScale.Fit)
             Text(text = "My Music",
@@ -146,7 +147,6 @@ fun TataletakBoxColumnRow(modifier: Modifier){
                 fontWeight = FontWeight.Bold,
                 fontFamily = FontFamily.Cursive,
                 modifier = Modifier.align(alignment = Alignment.Center)
-
             )
         }
     }
