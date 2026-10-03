@@ -73,7 +73,7 @@ fun TugasScreen(modifier: Modifier = Modifier) {
                 text = "20240140196",
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Black
+                color = Color.White
             )
         }
     }
