@@ -53,4 +53,15 @@ fun TugasScreen(modifier: Modifier = Modifier) {
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(90.dp)
             )
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+        }
+    }
+}
 
